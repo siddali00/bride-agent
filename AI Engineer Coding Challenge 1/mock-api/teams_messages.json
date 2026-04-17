@@ -1,0 +1,352 @@
+[
+  {
+    "id": "msg-001",
+    "sender": "Lisa Brandt",
+    "text": "Hey team, just got off a call with Hooli. They're asking if we can support SSO via SAML. Apparently it's a dealbreaker for their security team. Can we prioritize this?"
+  },
+  {
+    "id": "msg-002",
+    "sender": "Marco Reyes",
+    "text": "Initech needs bulk importing of employees ASAP. They've got like 4,000 people and doing it one by one is killing them. Sarah from their ops team has been on my case all week."
+  },
+  {
+    "id": "msg-003",
+    "sender": "Julia Chen",
+    "text": "Does anyone know the status of that thing Soyuz asked about? The manager over there pinged me again. Something about notifications when a compliance doc expires?"
+  },
+  {
+    "id": "msg-004",
+    "sender": "Tom Andersen",
+    "text": "FYI - Globex wants a way to download all their employee records as a CSV. Not urgent but they mentioned it twice now."
+  },
+  {
+    "id": "msg-005",
+    "sender": "Lisa Brandt",
+    "text": "Another one from Hooli lol - they also want to be able to assign different permission levels to HR admins vs. regular managers. Basically role-based access."
+  },
+  {
+    "id": "msg-006",
+    "sender": "Marco Reyes",
+    "text": "Quick note: Umbrella Corp's contract is up for renewal and they're asking about multi-language support. Their teams in France and Germany need the UI in local languages."
+  },
+  {
+    "id": "msg-007",
+    "sender": "Julia Chen",
+    "text": "Circling back on the Soyuz thing - they want automated alerts 30 days before any compliance document expires. I told them I'd flag it internally."
+  },
+  {
+    "id": "msg-008",
+    "sender": "Tom Andersen",
+    "text": "Had a chat with Pied Piper yesterday. They're interested but want to see a Slack integration before committing. Apparently their whole company lives in Slack."
+  },
+  {
+    "id": "msg-009",
+    "sender": "Lisa Brandt",
+    "text": "Initech again - on top of the bulk import, they want an API so they can sync employee data directly from their HRIS. Makes sense tbh."
+  },
+  {
+    "id": "msg-010",
+    "sender": "Marco Reyes",
+    "text": "Spoke to the Vandelay Industries PM. They love the product but need a dashboard that shows compliance status across all countries at a glance. Like a heatmap or something."
+  },
+  {
+    "id": "msg-011",
+    "sender": "Priya Sharma",
+    "text": "Wayne Industries just signed their trial. First thing they asked: do we support single sign-on? Their IT dept won't approve anything without it. Same story as Hooli basically."
+  },
+  {
+    "id": "msg-012",
+    "sender": "David Kim",
+    "text": "Cyberdyne's CISO emailed me directly. They need SAML SSO before they can roll us out to their org. Sent me a whole doc about their identity provider requirements."
+  },
+  {
+    "id": "msg-013",
+    "sender": "Anna Novak",
+    "text": "Dunder Mifflin wants to upload all their employees in one go. Right now they have to add ppl one at a time and it's a mess. Can we get that CSV upload thing built?"
+  },
+  {
+    "id": "msg-014",
+    "sender": "Priya Sharma",
+    "text": "Aperture Science has a big compliance concern - they want to know when work permits are about to expire so they don't get caught off guard. Some kind of automated reminder system?"
+  },
+  {
+    "id": "msg-015",
+    "sender": "Chris Mueller",
+    "text": "Massive Dynamic needs granular permissions. Their HR lead wants to give country managers access to only their region's data. Pretty standard RBAC stuff I think."
+  },
+  {
+    "id": "msg-016",
+    "sender": "Tom Andersen",
+    "text": "Oscorp asked if they can export their workforce data. They need it for their quarterly board reports. Basically same thing Globex wanted - CSV download."
+  },
+  {
+    "id": "msg-017",
+    "sender": "David Kim",
+    "text": "Rekall wants us to integrate with Slack so they can get notifications in their HR channel when new tickets are created. Sounds like what Pied Piper was asking for too."
+  },
+  {
+    "id": "msg-018",
+    "sender": "Julia Chen",
+    "text": "Cyberdyne also wants a real-time compliance dashboard btw. They manage remote workers in 15 countries and need visibility into status across all of them."
+  },
+  {
+    "id": "msg-019",
+    "sender": "Anna Novak",
+    "text": "Wonka Industries wants custom reports. Like being able to build their own report templates with filters for country, department, compliance status etc. Their finance team is driving this."
+  },
+  {
+    "id": "msg-020",
+    "sender": "Priya Sharma",
+    "text": "Momcorp needs reporting capabilities badly. They told me they're exporting raw data and building reports in Excel manually right now. They want to do it all in-platform."
+  },
+  {
+    "id": "msg-021",
+    "sender": "Chris Mueller",
+    "text": "Hey, Aperture Science also brought up e-signatures. They want employees to be able to sign compliance docs directly in the platform instead of printing/scanning. DocuSign integration maybe?"
+  },
+  {
+    "id": "msg-022",
+    "sender": "Lisa Brandt",
+    "text": "Abstergo needs electronic signatures for their employment contracts. They're processing hundreds of new hires across Europe and the manual signing process is a bottleneck."
+  },
+  {
+    "id": "msg-023",
+    "sender": "Marco Reyes",
+    "text": "Primatech wants a mobile app. Their field managers are never at a desk and need to approve compliance tasks from their phones. iOS and Android."
+  },
+  {
+    "id": "msg-024",
+    "sender": "David Kim",
+    "text": "Dunder Mifflin's HR director mentioned they want mobile access too. Not necessarily a full app but at least a mobile-friendly version of the portal."
+  },
+  {
+    "id": "msg-025",
+    "sender": "Anna Novak",
+    "text": "Soylent Corp is onboarding 200 new remote workers next quarter. They want an automated onboarding workflow - assign tasks, send welcome emails, trigger compliance checks automatically."
+  },
+  {
+    "id": "msg-026",
+    "sender": "Tom Andersen",
+    "text": "Bluth Company wants to automate their onboarding process. Right now their HR person manually creates each employee, sends them docs, follows up... it takes forever apparently."
+  },
+  {
+    "id": "msg-027",
+    "sender": "Priya Sharma",
+    "text": "LexCorp is asking about 2FA. Their security policy requires multi-factor auth for all third-party tools. Non-negotiable for them."
+  },
+  {
+    "id": "msg-028",
+    "sender": "Chris Mueller",
+    "text": "Stark wants two-factor authentication. Their infosec team did a vendor audit and flagged us for not having MFA. Would be good to get this done - they're a big account."
+  },
+  {
+    "id": "msg-029",
+    "sender": "Lisa Brandt",
+    "text": "Wayne Industries is also looking for an API. They use Workday and want employee data to sync automatically between systems. Same as what Initech asked for."
+  },
+  {
+    "id": "msg-030",
+    "sender": "Julia Chen",
+    "text": "Sterling Cooper needs to connect our platform with their HR system. They use some legacy HRIS and want bi-directional sync. Mentioned they'd even pay extra for it."
+  },
+  {
+    "id": "msg-031",
+    "sender": "Marco Reyes",
+    "text": "Soyuz also needs the platform in Russian and German. They have offices in Moscow and Berlin and their local HR teams don't speak English well."
+  },
+  {
+    "id": "msg-032",
+    "sender": "David Kim",
+    "text": "Nakatomi Trading operates in Japan, the US, and Germany. They need the interface available in Japanese at minimum. Multi-language support is a must for them."
+  },
+  {
+    "id": "msg-033",
+    "sender": "Anna Novak",
+    "text": "Gekko & Co's compliance officer wants to generate custom reports. Monthly compliance summaries per jurisdiction, that kind of thing. Said she spends hours compiling data manually."
+  },
+  {
+    "id": "msg-034",
+    "sender": "Priya Sharma",
+    "text": "Hooli's VP of People pinged me. They want better reporting too - specifically around time-to-compliance for new hires by country. That's their 3rd request this month btw."
+  },
+  {
+    "id": "msg-035",
+    "sender": "Tom Andersen",
+    "text": "LexCorp also wants role-based access controls. They have a complex org structure and need to restrict data visibility by region and department. Similar to what Massive Dynamic asked for."
+  },
+  {
+    "id": "msg-036",
+    "sender": "Chris Mueller",
+    "text": "Bluth Company needs data export. George Sr. apparently wants to see all employee records in a spreadsheet. Classic. Same CSV export feature others have asked about."
+  },
+  {
+    "id": "msg-037",
+    "sender": "Lisa Brandt",
+    "text": "Got a long email from Weyland-Yutani. They're onboarding 800 contractors across SE Asia and need to bulk upload employee data. Their current workaround is sending us spreadsheets to import manually lol."
+  },
+  {
+    "id": "msg-038",
+    "sender": "Julia Chen",
+    "text": "Tyrell Corp raised a concern about compliance documents expiring without warning. They almost had a visa issue with an employee in the UK. They want proactive alerts."
+  },
+  {
+    "id": "msg-039",
+    "sender": "David Kim",
+    "text": "Adding to the SSO pile - Stark Enterprises also needs it. They use Okta and want seamless login for their HR team. I think this is like the 5th company asking for this now?"
+  },
+  {
+    "id": "msg-040",
+    "sender": "Marco Reyes",
+    "text": "Umbrella Corp wants an approval workflow engine. Like when an employee submits a document, it should go through a chain: manager -> HR -> legal. With notifications at each step."
+  },
+  {
+    "id": "msg-041",
+    "sender": "Anna Novak",
+    "text": "Vandelay Industries has a growing contractor workforce. They need a separate module or workflow for managing contractors vs full-time employees. Different compliance reqs apparently."
+  },
+  {
+    "id": "msg-042",
+    "sender": "Priya Sharma",
+    "text": "Pied Piper wants white-label options. They're reselling our compliance features to their own clients and need to slap their branding on the UI. Custom logos, colors, domain."
+  },
+  {
+    "id": "msg-043",
+    "sender": "Tom Andersen",
+    "text": "Globex wants to automate their new hire setup. Every time they hire someone in a new country, they have to manually figure out what docs are needed. They want the system to handle it."
+  },
+  {
+    "id": "msg-044",
+    "sender": "Chris Mueller",
+    "text": "Initech's head of compliance wants a dashboard view. She said she needs to see at a glance which countries have issues and which employees have pending docs. Sounds like what Vandelay wanted."
+  },
+  {
+    "id": "msg-045",
+    "sender": "Lisa Brandt",
+    "text": "Hooli is asking about payroll integration now. They want to push approved employee data directly into their payroll provider. They use ADP."
+  },
+  {
+    "id": "msg-046",
+    "sender": "Julia Chen",
+    "text": "Massive Dynamic needs document version control. When a compliance doc gets updated, they want to keep the old versions and see a full history. Audit reasons."
+  },
+  {
+    "id": "msg-047",
+    "sender": "David Kim",
+    "text": "Wayne Industries is expanding into Latin America and wants to know employer costs by country before they hire. Taxes, social contributions, that kind of stuff. Some kind of cost calculator?"
+  },
+  {
+    "id": "msg-048",
+    "sender": "Anna Novak",
+    "text": "Cyberdyne also has a bunch of contractors. They want to be able to manage contractors and full-time employees in the same platform but with different workflows and requirements."
+  },
+  {
+    "id": "msg-049",
+    "sender": "Marco Reyes",
+    "text": "Oscorp wants an approval chain for document submissions. Right now everything just goes to one admin inbox and things get lost. They want configurable approval steps."
+  },
+  {
+    "id": "msg-050",
+    "sender": "Priya Sharma",
+    "text": "Wonka Industries wants an employee self-service portal where workers can see their own compliance status, upload docs, and track what's pending without bugging HR."
+  },
+  {
+    "id": "msg-051",
+    "sender": "Chris Mueller",
+    "text": "Sterling Cooper is interested in white-labeling too. They have a consulting arm and want to offer our platform under their brand to clients. Same ask as Pied Piper basically."
+  },
+  {
+    "id": "msg-052",
+    "sender": "Tom Andersen",
+    "text": "Soylent Corp wants a compliance overview dashboard. They need to quickly see which of their remote workers are fully compliant and who has gaps. Traffic light system or something."
+  },
+  {
+    "id": "msg-053",
+    "sender": "Lisa Brandt",
+    "text": "Rekall wants a country cost estimator. Before they place someone in a new country they want to see estimated employer costs. Very similar to what Wayne was asking about."
+  },
+  {
+    "id": "msg-054",
+    "sender": "Julia Chen",
+    "text": "Tyrell Corp is also asking about payroll connectivity. They want to sync employee compensation data with their payroll system automatically instead of re-entering everything."
+  },
+  {
+    "id": "msg-055",
+    "sender": "David Kim",
+    "text": "Dunder Mifflin wants to track document versions. When an employee re-uploads a work permit, they want to see the previous version and a timestamp. Their legal team requires it."
+  },
+  {
+    "id": "msg-056",
+    "sender": "Anna Novak",
+    "text": "Nakatomi Trading asked about digital signatures for contracts. They want their employees in Japan to sign offer letters electronically. Legal approved it on their end already."
+  },
+  {
+    "id": "msg-057",
+    "sender": "Marco Reyes",
+    "text": "Abstergo wants to set up automated onboarding flows. When a new hire is added to the system, it should automatically generate their compliance checklist based on their country."
+  },
+  {
+    "id": "msg-058",
+    "sender": "Priya Sharma",
+    "text": "Just had a demo with Primatech. First question out of the gate: do you support single sign-on? I swear every enterprise client asks this. They use Azure AD."
+  },
+  {
+    "id": "msg-059",
+    "sender": "Chris Mueller",
+    "text": "Weyland-Yutani wants configurable approval workflows. Like a doc goes from employee -> local manager -> regional compliance -> HQ. Different flows per country."
+  },
+  {
+    "id": "msg-060",
+    "sender": "Tom Andersen",
+    "text": "Bluth Company called about compliance alerts. They got fined because an employee's work permit expired and nobody noticed. Now they want the system to send warnings automatically."
+  },
+  {
+    "id": "msg-061",
+    "sender": "Lisa Brandt",
+    "text": "Hey does anyone have the wifi password for the 4th floor meeting room? I keep getting kicked off during calls."
+  },
+  {
+    "id": "msg-062",
+    "sender": "Marco Reyes",
+    "text": "The CI pipeline is broken again. Can someone from DevOps take a look? My PR has been stuck for 2 hours."
+  },
+  {
+    "id": "msg-063",
+    "sender": "Julia Chen",
+    "text": "Happy birthday Tom!! Hope you enjoy the cake - sorry it's gluten free, that was all they had at the bakery lol"
+  },
+  {
+    "id": "msg-064",
+    "sender": "David Kim",
+    "text": "Reminder: we're doing the team retro at 3pm in the big conference room. Please fill out the Miro board beforehand if you can."
+  },
+  {
+    "id": "msg-065",
+    "sender": "Anna Novak",
+    "text": "Who's covering on-call this weekend? The schedule doc is outdated and I can't figure out if it's me or Chris."
+  },
+  {
+    "id": "msg-066",
+    "sender": "Priya Sharma",
+    "text": "Great demo yesterday team! The client was really impressed with the new UI. Shoutout to David for staying late to fix that last-minute bug."
+  },
+  {
+    "id": "msg-067",
+    "sender": "Chris Mueller",
+    "text": "Is the office closed next Monday for the holiday? I can't find anything on the company calendar and HR hasn't sent an email."
+  },
+  {
+    "id": "msg-068",
+    "sender": "Tom Andersen",
+    "text": "The coffee machine on the 2nd floor is broken AGAIN. I've reported it 3 times now. At this point I'm bringing my own French press."
+  },
+  {
+    "id": "msg-069",
+    "sender": "Lisa Brandt",
+    "text": "Can someone review my PR #2847? It's the fix for the timezone bug in the notifications module. Should be a quick one."
+  },
+  {
+    "id": "msg-070",
+    "sender": "Marco Reyes",
+    "text": "Just a heads up - I'll be OOO Thursday and Friday for a dentist appointment and some personal stuff. Priya is covering my accounts."
+  }
+]

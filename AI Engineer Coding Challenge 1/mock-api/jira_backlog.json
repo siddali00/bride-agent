@@ -1,0 +1,37 @@
+[
+  {
+    "ticket_id": "JIRA-1042",
+    "title": "Implement SAML-based Single Sign-On (SSO)",
+    "description": "As an enterprise client, I need to authenticate via my company's identity provider using SAML 2.0 so that employees don't need separate credentials for our platform. Acceptance criteria: support SAML 2.0, allow IdP metadata upload, auto-provisioning of user accounts on first login."
+  },
+  {
+    "ticket_id": "JIRA-1057",
+    "title": "Bulk Employee Import via CSV Upload",
+    "description": "Allow HR admins to upload a CSV file containing employee records (name, email, department, country) to onboard multiple employees at once instead of creating them individually. Should include validation, error reporting, and a dry-run preview mode."
+  },
+  {
+    "ticket_id": "JIRA-1063",
+    "title": "Automated Compliance Document Renewal Reminders",
+    "description": "Build a notification system that alerts account admins when compliance documents (work permits, tax forms, visa documents) are approaching their expiration date. Should support configurable reminder windows (e.g., 30, 60, 90 days before expiry)."
+  },
+  {
+    "ticket_id": "JIRA-1078",
+    "title": "Mobile-Responsive Employee Self-Service Portal",
+    "description": "Redesign the employee-facing portal to be fully responsive on mobile devices. Employees should be able to view their compliance status, upload documents, and update personal information from their phones."
+  },
+  {
+    "ticket_id": "JIRA-1085",
+    "title": "Audit Log for All Admin Actions",
+    "description": "Create a comprehensive audit trail that records every action taken by admin users, including login events, employee record changes, document approvals, and permission modifications. Must be exportable and filterable by date range and admin user."
+  },
+  {
+    "ticket_id": "JIRA-1091",
+    "title": "Multi-Currency Payroll Cost Estimation",
+    "description": "Add a feature that estimates employer costs (taxes, social contributions, benefits) in the employee's local currency when setting up a new remote worker in a given country. Should use up-to-date exchange rates."
+  },
+  {
+    "ticket_id": "JIRA-1105",
+    "title": "Integration with Popular HRIS Platforms",
+    "description": "Build REST API connectors to sync employee data bi-directionally with major HRIS platforms (BambooHR, Workday, Personio). Should support scheduled syncs and conflict resolution for data mismatches."
+  }
+]

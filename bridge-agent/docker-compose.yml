@@ -1,0 +1,13 @@
+services:
+  bridge-agent:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # host.docker.internal lets the container reach the mock-api running
+      # on the host (started from the challenge's own docker-compose).
+      - MOCK_BASE_URL=http://host.docker.internal:8080
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
