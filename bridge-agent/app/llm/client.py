@@ -29,6 +29,19 @@ def get_client() -> AsyncOpenAI:
     return _client
 
 
+def _strip_code_fence(text: str) -> str:
+    s = text.strip()
+    if not s.startswith("```"):
+        return s
+    s = s[3:]
+    if s.lower().startswith("json"):
+        s = s[4:]
+    s = s.lstrip("\r\n").lstrip()
+    if s.endswith("```"):
+        s = s[:-3]
+    return s.strip()
+
+
 async def json_call(
     system: str,
     user: str,
@@ -64,7 +77,7 @@ async def json_call(
 
     content = resp.choices[0].message.content or "{}"
     try:
-        data = json.loads(content)
+        data = json.loads(_strip_code_fence(content))
     except json.JSONDecodeError as e:
         raise ValueError(f"LLM returned invalid JSON: {e}; raw={content[:200]}") from e
     try:
